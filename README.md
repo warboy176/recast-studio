@@ -64,7 +64,7 @@ You press Recast, and you get back the same video with your character performing
 ## Get it
 
 **The full source, the ComfyUI workflows and the install guide are on Patreon for paid members:**
-**[patreon.com/warboy176](https://www.patreon.com/warboy176)**
+**[Recast Studio Pro on Patreon](https://www.patreon.com/warboy176/posts/recast-studio-in-175821679)** · [patreon.com/warboy176](https://www.patreon.com/warboy176)
 
 The install guide lists every model file with its download link and folder, the custom nodes and the versions it
 was tested with, single-machine and render-host setup, VRAM notes and troubleshooting.
