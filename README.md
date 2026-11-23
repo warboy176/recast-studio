@@ -19,7 +19,10 @@ You press Recast, and you get back the same video with your character performing
 
 ## Features
 
-- **Upload or link.** Drop a file or paste a video link; it fetches it, keeps up to 30 seconds and normalises it.
+- **Crew mode (new in v3).** Turn your renders into a synchronized dance crew on one stage: a lead at the point,
+  mirrored clones in formation, feet planted, contact shadows and floor reflections. CPU only - no extra GPU time.
+- **Upload or link.** Drop a file or paste a video link; it fetches it, keeps up to 2 minutes (long videos render as ~30-second
+  segments that are stitched back together) and normalises it.
 - **Auto full body.** Only have a chest-up portrait of your character? It notices, and generates a full-body
   version of the same person first (Qwen-Image-Edit-2509), so the legs, trousers and shoes are your character's,
   not the original person's.
@@ -58,13 +61,14 @@ You press Recast, and you get back the same video with your character performing
 - 64 GB of system RAM recommended.
 - ComfyUI with five custom node packs, and about 62 GB of open model weights.
 - Python 3.10+ and ffmpeg. Windows or Linux.
-- Clips up to 30 seconds. One person in the shot and a still camera give the best results; a moving camera falls
+- Clips up to 2 minutes. One person in the shot and a still camera give the best results; a moving camera falls
   back to a simpler mask.
 
 ## Get it
 
 **The full source, the ComfyUI workflows and the install guide are on Patreon for paid members:**
-**[Recast Studio Pro on Patreon](https://www.patreon.com/warboy176/posts/recast-studio-in-175821679)** · [patreon.com/warboy176](https://www.patreon.com/warboy176)
+**[Recast Studio Pro v3 - one-time purchase](https://www.patreon.com/warboy176/posts/recast-studio-175871279)** · members get every update:
+**[v3 release post](https://www.patreon.com/warboy176/posts/recast-studio-v3-176119479)** · [patreon.com/warboy176](https://www.patreon.com/warboy176)
 
 The install guide lists every model file with its download link and folder, the custom nodes and the versions it
 was tested with, single-machine and render-host setup, VRAM notes and troubleshooting.
