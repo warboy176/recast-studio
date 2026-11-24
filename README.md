@@ -8,6 +8,13 @@ character. Same room, same camera, same moves, same timing.*
 **Swap the person in a real video for your character.** The scene, the camera move, the timing and the audio stay
 real. Only the person changes.
 
+## New in v4: Scene Recast
+
+![Left: an original two-shot clip of a man and a woman dancing in a studio, made entirely with AI. Right: both people recast as two different characters, plus a close-up recast in the second shot.](scene-recast-demo.gif)
+
+*Recast every person in a multi-person, multi-shot clip. Left: our own AI-generated test clip (no real people).
+Right: both dancers and the close-up recast as two other characters. Same room, same camera, same moves.*
+
 ## What it does
 
 You open a page in your browser and give it two things:
@@ -19,7 +26,10 @@ You press Recast, and you get back the same video with your character performing
 
 ## Features
 
-- **Crew mode (new in v3).** Turn your renders into a synchronized dance crew on one stage: a lead at the point,
+- **Scene Recast (new in v4).** Recast every person in a multi-person, multi-shot clip with your own characters
+  while the real background and camera stay. Automatic shot detection, every person tracked in every frame (no original
+  person can leak through), identities matched across cuts, one line per person in a cast file.
+- **Crew mode (v3).** Turn your renders into a synchronized dance crew on one stage: a lead at the point,
   mirrored clones in formation, feet planted, contact shadows and floor reflections. CPU only - no extra GPU time.
 - **Upload or link.** Drop a file or paste a video link; it fetches it, keeps up to 2 minutes (long videos render as ~30-second
   segments that are stitched back together) and normalises it.
@@ -67,8 +77,8 @@ You press Recast, and you get back the same video with your character performing
 ## Get it
 
 **The full source, the ComfyUI workflows and the install guide are on Patreon for paid members:**
-**[Recast Studio Pro v3 - one-time purchase](https://www.patreon.com/warboy176/posts/recast-studio-175871279)** · members get every update:
-**[v3 release post](https://www.patreon.com/warboy176/posts/recast-studio-v3-176119479)** · [patreon.com/warboy176](https://www.patreon.com/warboy176)
+**[Recast Studio Pro v4 - one-time purchase](https://www.patreon.com/warboy176/posts/recast-studio-175871279)** · members get every update:
+**[v4 release post](https://www.patreon.com/warboy176/posts/recast-studio-v4-176229545)** · [patreon.com/warboy176](https://www.patreon.com/warboy176)
 
 The install guide lists every model file with its download link and folder, the custom nodes and the versions it
 was tested with, single-machine and render-host setup, VRAM notes and troubleshooting.
@@ -81,5 +91,5 @@ you publish them.
 
 ## License
 
-The text of this README is MIT licensed (see LICENSE). The demo animation is for illustration only. The Recast
+The text of this README is MIT licensed (see LICENSE). The demo animations are for illustration only. The Recast
 Studio Pro source is not in this repository and is licensed separately.
